@@ -1,4 +1,6 @@
 ```
+kubectl create namespace monitoring
+
 kubectl run test-registry --image=registry.eniac-tech.com/prometheus-stack/busybox:latest --restart=Never -
 -command -- sleep 30
 
